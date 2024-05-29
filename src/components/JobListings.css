@@ -1,0 +1,28 @@
+.job-listings {
+    padding: 0px 60px;
+    margin: 40px 0px;
+}
+
+.job-listings #listing-title {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.jobs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 767px) {
+    .job-listings {
+        margin-top: 200px;
+        padding: 0px;
+    }
+
+    .jobs-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

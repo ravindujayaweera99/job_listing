@@ -1,0 +1,153 @@
+.job-content {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 240px;
+
+}
+
+.job-content .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+
+.job-content .top h1 {
+    font-weight: 200;
+}
+
+.job-content .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-content .bottom h4 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #c2405c;
+}
+
+.job-content p {
+    font-weight: 200;
+}
+
+.job-content .bottom .left {
+    width: 50%;
+}
+
+.job-content .bottom .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.location-arrow {
+    margin-right: 5px;
+}
+
+#job-type,
+#job-location {
+    color: #c2405c
+}
+
+#company-name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#company-email,
+#company-phone {
+    margin-top: 12px;
+    font-weight: 500;
+    background-color: rgba(194, 64, 92, 0.4);
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons a,
+.buttons button {
+    background-color: #fff;
+    padding: 8px 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+}
+
+#edit {
+    color: #4056c2;
+}
+
+#delete {
+    color: #c2405c;
+}
+
+#edit:hover {
+    background-color: #4056c2;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#delete:hover {
+    background-color: #c2405c;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#back {
+    padding: 8px 16px;
+    background-color: #c2405c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 200px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+#back:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #c2405c;
+    transition: 0.4s;
+}
+
+
+@media (max-width:767px) {
+    .job-content {
+        padding: 40px 0px;
+    }
+
+    .job-content .bottom .left,
+    .job-content .bottom .right {
+        width: 80%;
+    }
+
+    .job-content .top {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}

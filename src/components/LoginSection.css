@@ -1,0 +1,117 @@
+.logins {
+    padding: 0px 60px;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.logins .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.logins .button-container .dev,
+.logins .button-container .employee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.dev h1,
+.employee h1 {
+    font-weight: 400;
+}
+
+.dev {
+    color: #fff;
+    font-weight: 300;
+}
+
+.employee {
+    color: #C2405C;
+    font-weight: 300;
+}
+
+.dev button {
+    padding: 10px 8px;
+    width: 100px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 300;
+}
+
+.employee button {
+    padding: 10px 8px;
+    width: 100px;
+    background-color: #C2405C;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.dev button:hover {
+    background-color: #C2405C;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.employee button:hover {
+    background-color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+    color: #C2405C;
+}
+
+@media (max-width: 767px) {
+
+    .logins {
+        height: 20vh;
+        margin-bottom: 40px;
+    }
+
+    .logins .button-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .logins .button-container .dev,
+    .logins .button-container .employee {
+        width: 300px;
+    }
+
+    .logins .button-container .dev h1,
+    .logins .button-container .employee h1 {
+        font-size: 20px;
+    }
+
+    .logins .button-container .dev p,
+    .logins .button-container .employee p {
+        font-size: 12px;
+    }
+
+    .dev button {
+        width: 100px;
+        background-color: #fff;
+    }
+
+    .employee button {
+        padding: 10px 8px;
+        width: 100px;
+        background-color: #C2405C;
+        border: none;
+        border-radius: 8px;
+    }
+}

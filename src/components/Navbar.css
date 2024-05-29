@@ -1,0 +1,44 @@
+nav {
+    background-color: #232323;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0px 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul .not-active {
+    color: #FFF;
+}
+
+nav ul .active {
+    border-bottom: 3px solid #c2405c;
+}
+
+
+nav ul a:hover {
+    color: #c2405c;
+    transition: 0.4s;
+}
+
+@media (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        height: 80px;
+        padding-top: 40px;
+        gap: 32px;
+        margin-bottom: 80px;
+    }
+}
