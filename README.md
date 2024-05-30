@@ -40,25 +40,11 @@ Start the development server
 bash
 Copy code
 npm run dev
+
 Available Scripts
 
 npm run dev: Starts the front-end development server.
 npm run server: Starts the JSON server.
-Project Structure
 
-java
-Copy code
-.
-├── public
-│   └── index.html
-├── src
-│   ├── components
-│   ├── pages
-│   ├── App.jsx
-│   ├── index.js
-│   └── ...
-├── db.json
-├── package.json
-└── README.md
-Contributing
+
 
